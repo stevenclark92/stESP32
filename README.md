@@ -1,6 +1,6 @@
 # stESP32
 
-A super simple logic analyser designed to work with an ESP32.
+Turn an ESP32 into a 16-bit logic analyser.
 
 ## How it works
 
