@@ -17,8 +17,9 @@ Getting started is easy. Compile and write the code to your MCU, and attach pins
 | ----------- | ----------- |
 | GND         | GND         |
 | D15         | CLK Out     |
-| ----------- | ----------- |
 | D13         | RWb         |
+
+| ESP32 Pin   | Data Bus    |
 | ----------- | ----------- |
 | D12         | D0          |
 | D14         | D1          |
@@ -28,6 +29,8 @@ Getting started is easy. Compile and write the code to your MCU, and attach pins
 | D33         | D5          |
 | D32         | D6          |
 | D35         | D7          |
+
+| ESP32 Pin   | Address Bus |
 | ----------- | ----------- |
 | D2          | A0          |
 | D4          | A1          |
