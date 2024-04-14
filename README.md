@@ -17,7 +17,9 @@ Getting started is easy. Compile and write the code to your MCU, and attach pins
 | ----------- | ----------- |
 | GND         | GND         |
 | D15         | CLK Out     |
+| ----------- | ----------- |
 | D13         | RWb         |
+| ----------- | ----------- |
 | D12         | D0          |
 | D14         | D1          |
 | D27         | D2          |
@@ -26,7 +28,8 @@ Getting started is easy. Compile and write the code to your MCU, and attach pins
 | D33         | D5          |
 | D32         | D6          |
 | D35         | D7          |
-| D2          | D0          |
+| ----------- | ----------- |
+| D2          | A0          |
 | D4          | A1          |
 | D5          | A2          |
 | D18         | A3          |
