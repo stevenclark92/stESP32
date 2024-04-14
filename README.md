@@ -13,11 +13,15 @@ I intended for this code to be used with the Arduino IDE or VSCode using Arduino
 
 Getting started is easy. Compile and write the code to your MCU, and attach pins to your 8-Bit CPU via jumpers in the following order:
 
+### Non-bus connections:
+
 | ESP32 Pin   | CPU Pin     |
 | ----------- | ----------- |
 | GND         | GND         |
 | D15         | CLK Out     |
 | D13         | RWb         |
+
+### Data bus connections:
 
 | ESP32 Pin   | Data Bus    |
 | ----------- | ----------- |
@@ -29,6 +33,8 @@ Getting started is easy. Compile and write the code to your MCU, and attach pins
 | D33         | D5          |
 | D32         | D6          |
 | D35         | D7          |
+
+### Address bus connections:
 
 | ESP32 Pin   | Address Bus |
 | ----------- | ----------- |
