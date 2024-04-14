@@ -4,7 +4,7 @@ Turn an ESP32 into a 16-bit logic analyser.
 
 ## How it works
 
-This project provides a simple way to monitor the state of an 8-Bit CPU, such as a 6502 or Z-80, using an ESP32 and a serial monitor. It monitors the CPU clock signal (or any external clock signal) and at each rising edge of the pulse it will record the send of the data and address buses in both Binary and Hexadecimal via USB Serial. It will also output whether the current operation is Read or Write, based on the logic level of the R/Wb pin if this is present.
+This project provides a simple way to monitor the state of an 8-Bit CPU, such as a 6502 or Z-80, using an ESP32 and a serial monitor. It monitors the CPU clock signal (or any external clock signal) and at each rising edge of the pulse it will record the current state of the data and address buses in both Binary and Hexadecimal. It will also output whether the current operation is Read or Write based on the logic level of the R/Wb pin if this is present and connected.
 
 Outputs are deliberately as barebones as possible:
 
