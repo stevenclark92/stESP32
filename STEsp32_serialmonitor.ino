@@ -6,7 +6,7 @@ const int clockPin = 15;
 const int rwPin = 13; // Add your read/write pin number here
 
 // Create arrays of pin for use by Addres & Data Buses
-const int ABUS[] =  {2, 4, 5, 18, 19, 21, 22, 23}; 
+const int ABUS[] =  {2, 4, 5, 18, 19, 21, 22, 23};
 const int DBUS[] = {12, 14, 27, 26, 25, 33, 32, 35};
 
 // Pin 34 is available for future use
