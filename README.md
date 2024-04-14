@@ -60,7 +60,7 @@ This code was written quickly without error handling or logic to prevent the ESP
 This project was inspired by multiple YouTube projects I've been following, and draws heavily from [Ben Eater's 6502 series](https://www.youtube.com/watch?v=LnzuMJLZRdU) where he uses an Arduino to achieve a similar goal. I opted to rewrite the code to prevent serial writes during interrupts because the microcontrollers I had available had a habit of crashing intermittently if I tried that.
 
 
-## ToDo
+## TODO
 
 I'd like to eventually be able to manage this via a web interface using the ESP32's Wifi, managing the logic analysis with one core and the webserver/websockets with the other. This may not be possible due to hardware constraints, but I plan to have a go.
 
