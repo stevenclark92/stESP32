@@ -14,7 +14,7 @@ Outputs are deliberately as barebones as possible:
 
 I intended for this code to be used with the Arduino IDE or VSCode using Arduino extensions. Either should work. I haven't tested this with other boards, but I imagine this will work for RPi and Arduino boards, too, provided they are clocked fast enough.
 
-Getting started is easy. Compile and write the code to your MCU, and attach pins to your 8-Bit CPU via jumpers in the following order:
+Getting started is easy. Compile and write the code to your MCU and attach pins to your 8-Bit CPU via jumpers in the following order:
 
 ### Non-bus connections:
 
