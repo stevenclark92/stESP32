@@ -54,7 +54,7 @@ Pin 34 on the ESP32 is left unconnected, but in future I plan to figure out a wa
 
 ## Caveats & Considerations
 
-Due to the number of available input pins on the ESP32 board, it's not possible to read a full 16-Bit address bus and the 8-Bit data bus at the same time. When using a chip that has a 16-Bit address bus (basically all of them) you'll need to make some compromises. If you're using a different board, simply add the missing pin assignments to be able to read the full bus. 
+Due to the number of available input pins on most ESP32 boards, it's not always possible to read a full 16-Bit address bus and an 8-Bit data bus at the same time (this would need 24 pins, plus GND, CLK and RWb, for 27. Not all boards have this many GPIO pins available). When using a chip that has a 16-Bit address bus (basically all of them) and one of these ESP32s you'll need to make some compromises. If you're using a different board, simply add the missing pin assignments to be able to read the full bus. 
 
 This code was written quickly without error handling or logic to prevent the ESP32 from spamming the serial connection where the clock signal is floating on boot. Please ensure you have a clock signal available, or you'll probably crash your IDE. I'll fix this eventually.
 
