@@ -48,7 +48,7 @@ void setup() {
 
   pinMode(rwPin, INPUT);
 
-  attachInterrupt(digitalPinToInterrupt(clockPin), handleInterrupt, RISING);
+  attachInterrupt(digitalPinToInterrupt(clockPin), handleInterrupt, FALLING);
 
 }
 
